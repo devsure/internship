@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <!--   Meta Tags ---->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Quizarty</title>
+
+  <!-- Bootstrapp plugin -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!--    Font Style  -->
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icon --->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--- Main Style Sheet ---->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+
+<body>
+
+
+  <main>
+    <div class="container holder">
+      <div class="row">
+        <div class="col-6 h_1">
+          <h2 style="font-weight:bold;">All Questions</h2>
+        </div>
+        <div class="col-6 h_2">
+          <button type="button" class="btn btn-primary ask">Ask Question</button>
+        </div>
+      </div>
+      <div class="row box">
+        <div class="col col-lg-4 col-sm-12 h_1">
+          <h3 style="font-size:1.4em;">120,120,120 questions</h3>
+        </div>
+        <div class="col col-lg-5 col-sm-12 bound">
+          <button id="f1" type="button" name="button" onclick="myRegister()">Newest</button>
+          <button id="f2" type="button" name="button" onclick="changeColor()">Active</button>
+          <button id="f2" type="button" name="button" onclick="changeColor()">Bountied<p class="num">443</p></button>
+          <button id="f3" type="button" name="button" onclick="changeColor()">Unaswered</button>
+        </div>
+        <div class="col col-lg-3 col-sm-12">
+          <select class="list" name="">
+            <option value="" hidden="">More</option>
+            <option value="frequent">Frequent </option>
+            <option value="votes">Votes</option>
+          </select>
+          <button class="filter">Filter</button>
+        </div>
+      </div>
+
+    </div>
+    <hr>
+    <div class="container holder">
+      <div class="card-1">
+        <div class="vote">
+          <img src="arrow.svg" width="15px" height="15px" alt="">
+          <h1 style="font-size:1.4em">2</h1>
+          <p>votes</p>
+          <div class="greenborder">
+            <h1>7</h1>
+            <p>answers</p>
+          </div>
+          <p>200 views</p>
+          <img src="arrow-down.jpeg" width="15px" height="15px" alt="">
+        </div>
+        <div class="mainqa">
+          <h2 class="card-text">How to show info about page number between “previous” and “next” buttons in DataTables?</h2>
+          <h3 class="card-text1">I need to show text about the current page number and total page count between 'previous/next' buttons in the DataTable table this is how it should look like. I made pagingType: , ...</h3>
+          <div class="tags"><a href="/respectag">sql</a><a href="/respectag">mysql</a><a href="/respectag">django</a><a href="/respectag">react</a><a href="/respectag">mongo</a><a href="/respectag">mongoose</a></div>
+          <p class="modified">modified 9 seconds ago</p>
+          <div class="profile"><img src="user.png" width="50px" height="50px" alt="">
+            <div class="colflex">
+              <h4 style="font-size:1.0em; font-weight:bold;">Harish</h4>
+              <div class="rowflex">
+                <p>15</p>&nbsp;&nbsp;
+                <p><img src="gold.png" width="15px" height="15px" alt="">&nbsp;0</p>&nbsp;
+                <p><img src="black.png" width="15px" height="15px" alt="">&nbsp;5</p>&nbsp;
+                <p><img src="white.png" width="15px" height="15px" alt="">&nbsp;100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-1">
+        <div class="vote">
+          <img src="arrow.svg" width="15px" height="15px" alt="">
+          <h1 style="font-size:1.4em">2</h1>
+          <p>votes</p>
+          <div class="greenborder">
+            <h1>7</h1>
+            <p>answers</p>
+          </div>
+          <p>200 views</p>
+          <img src="arrow-down.jpeg" width="15px" height="15px" alt="">
+        </div>
+        <div class="mainqa">
+          <h2 class="card-text">How to show info about page number between “previous” and “next” buttons in DataTables?</h2>
+          <h3 class="card-text1">I need to show text about the current page number and total page count between 'previous/next' buttons in the DataTable table this is how it should look like. I made pagingType: , ...</h3>
+          <div class="tags"><a href="/respectag">sql</a><a href="/respectag">mysql</a><a href="/respectag">django</a><a href="/respectag">react</a><a href="/respectag">mongo</a><a href="/respectag">mongoose</a></div>
+          <p class="modified">modified 9 seconds ago</p>
+          <div class="profile"><img src="user.png" width="50px" height="50px" alt="">
+            <div class="colflex">
+              <h4 style="font-size:1.0em; font-weight:bold;">Harish</h4>
+              <div class="rowflex">
+                <p>15</p>&nbsp;&nbsp;
+                <p><img src="gold.png" width="15px" height="15px" alt="">&nbsp;0</p>&nbsp;
+                <p><img src="black.png" width="15px" height="15px" alt="">&nbsp;5</p>&nbsp;
+                <p><img src="white.png" width="15px" height="15px" alt="">&nbsp;100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </main>
+
+
+  <script type="text/javascript">
+  function myRegister() {
+    document.querySelector("#f1").style.color = "blue";
+    g1.style.backgroundColor = "grey";
+    document.getElementById("f2").style.background-color = "grey";
+    document.getElementById("f3").style.background-color = "grey";
+  }
+  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous">
+  </script>
+
+  <script src="jquery.animated-bg.js"></script>
+  <script type="text/javascript" src="js/background.js">
+  </script>
+</body>
+
+</html>
