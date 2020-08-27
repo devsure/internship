@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <!--   Meta Tags ---->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Quizarty</title>
+
+  <!-- Bootstrapp plugin -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!--    Font Style  -->
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icon --->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--- Main Style Sheet ---->
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="  background: linear-gradient(-210deg,#33cc33,#0099ff);">
+
+  <a class="navbar-brand" href="#">
+    <font class="heading">Quizarty</font>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active mr-5">
+        <a class="nav-link" href="#">Home <i class="fa fa-home"></i>
+          <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active mr-5">
+        <a class="nav-link" href="#">Host a Game <i class="fa fa-puzzle-piece"></i>
+          <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active mr-5">
+        <a class="nav-link" href="#">Join a Game <i class="fa fa-user"></i>
+          <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active mr-5">
+        <a class="nav-link" href="#">Leader <i class="fa fa-signal"></i>
+          <span class="sr-only">(current)</span></a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<body>
+
+
+
+    <div class="container">
+      <div class="row d-flex justify-content-center mt-2 mb-2">
+            <img class="profile" src="profile1.png" alt="">
+      </div>
+            <h3>First_name Last_name</h3>
+      <div class="row">
+          <div class="container box1">
+            <div class="row">
+              <div class="col s1">
+                <button class="two" type="button" name="button" onclick="myRegister()">ABOUT YOU</button>
+              </div>
+              <div class="col s1">
+                <button class="three" type="button" name="button" onclick="myLogin()">MANAGE COINS</button>
+              </div>
+            </div>
+          </div>
+          <div class="container box2 pt-3">
+
+            <div class="row d-flex justify-content-around">
+              <div class="tab"><img class="icon" src="user.png" alt=""><br>Profile</div>
+              <div class="tab"><img class="icon" src="prize.png" alt=""><br>All India</div>
+              <div class="tab"><img class="icon" src="feed.png" alt=""><br>Your Activity</div>
+              <div class="tab"><img class="icon" src="lock.png" alt=""><br>Your Saved</div>
+              <div class="tab"><img class="icon" src="friend.png" alt=""><br>Invite friends</div>
+            </div>
+
+          </div>
+
+
+          <div class="container box3 pt-3">
+            <div class="row d-flex justify-content-around">
+              <div class="tab"><img class="icon" src="money.png" alt=""><br>Purchase Coins</div>
+              <div class="tab"><img class="icon" src="trans.png" alt=""><br>My transactions</div>
+              <div class="tab"><img class="icon" src="monitor.png" alt=""><br>Spent Analyser</div>
+              <div class="tab"><img class="icon" src="learn.png" alt=""><br>Learn more..</div>
+            </div>
+          </div>
+
+
+      </div>
+
+    </div>
+
+    <!-- <section>
+
+
+    </section> -->
+
+
+  <!-- </main> -->
+
+  <script type="text/javascript">
+    function myRegister() {
+      document.querySelector(".box3").style.display = "none";
+      document.querySelector(".box2").style.display = "block";
+      var element = document.querySelector(".two");
+      var element1 = document.querySelector(".three");
+      element.classList.add("bg-blue");
+      element1.classList.add("bg-grey");
+
+    }
+
+    function myLogin() {
+      document.querySelector(".box3").style.display = "block";
+      document.querySelector(".box2").style.display = "none";
+      var element = document.querySelector(".two");
+      var element1 = document.querySelector(".three");
+      element.classList.remove("bg-blue");
+      element1.classList.remove("bg-grey");
+    }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous">
+  </script>
+  <script src="jquery.animated-bg.js"></script>
+  <script type="text/javascript" src="js/background.js">
+  </script>
+</body>
+
+</html>
