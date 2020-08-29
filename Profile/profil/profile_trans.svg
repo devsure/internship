@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="profile_trans" transform="translate(-98 -304)">
+    <g id="Group_351" data-name="Group 351">
+      <circle id="Ellipse_114" data-name="Ellipse 114" cx="24" cy="24" r="24" transform="translate(98 304)" fill="#f1f5ff"/>
+    </g>
+    <g id="noun_transactions_2496553" transform="translate(107 311.637)">
+      <path id="Path_2950" data-name="Path 2950" d="M30.889,16.374a.62.62,0,0,0-.619.619A13.051,13.051,0,1,1,16.291,4.034l-.557.433a.635.635,0,0,0,.371,1.144.54.54,0,0,0,.371-.124l2.1-1.608a.661.661,0,0,0,.247-.526.586.586,0,0,0-.278-.495l-2.1-1.392a.614.614,0,0,0-.866.186.614.614,0,0,0,.186.866L16.2,2.8A14.276,14.276,0,1,0,31.507,17.023.648.648,0,0,0,30.889,16.374Z" transform="translate(-2.003)" fill="#346fc8" stroke="#326bc0" stroke-width="0.2"/>
+      <circle id="Ellipse_115" data-name="Ellipse 115" cx="0.773" cy="0.773" r="0.773" transform="translate(27.618 12.941)" fill="#346fc8" stroke="#326bc0" stroke-width="0.2"/>
+      <circle id="Ellipse_116" data-name="Ellipse 116" cx="0.773" cy="0.773" r="0.773" transform="translate(26.628 10.065)" fill="#346fc8" stroke="#326bc0" stroke-width="0.2"/>
+      <circle id="Ellipse_117" data-name="Ellipse 117" cx="0.773" cy="0.773" r="0.773" transform="translate(24.772 7.374)" fill="#346fc8" stroke="#326bc0" stroke-width="0.2"/>
+      <circle id="Ellipse_118" data-name="Ellipse 118" cx="0.773" cy="0.773" r="0.773" transform="translate(22.205 5.054)" fill="#346fc8" stroke="#326bc0" stroke-width="0.2"/>
+      <circle id="Ellipse_119" data-name="Ellipse 119" cx="0.773" cy="0.773" r="0.773" transform="translate(19.144 3.446)" fill="#346fc8" stroke="#326bc0" stroke-width="0.2"/>
+      <path id="Path_2951" data-name="Path 2951" d="M41.826,34.955a.653.653,0,0,0-.649-.649H32.8l1.423-1.423a.634.634,0,0,0-.464-1.082.682.682,0,0,0-.464.186l-2.505,2.505a.635.635,0,0,0,0,.9l2.505,2.536A.656.656,0,0,0,34.218,37L32.8,35.542h8.381A.584.584,0,0,0,41.826,34.955Z" transform="translate(-21.136 -21.024)" fill="#346fc8" stroke="#326bc0" stroke-width="0.2"/>
+      <path id="Path_2952" data-name="Path 2952" d="M39.272,59.209a.629.629,0,0,0,.464-.186l2.505-2.536a.635.635,0,0,0,0-.9l-2.505-2.505a.634.634,0,0,0-.9.9l1.423,1.423H31.849a.649.649,0,1,0,0,1.3h8.381l-1.423,1.454a.673.673,0,0,0,0,.928A1.025,1.025,0,0,0,39.272,59.209Z" transform="translate(-21.551 -35.599)" fill="#346fc8" stroke="#326bc0" stroke-width="0.2"/>
+    </g>
+  </g>
+</svg>

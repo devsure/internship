@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <!--   Meta Tags ---->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Quizarty</title>
+
+  <!-- Bootstrapp plugin -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!--    Font Style  -->
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icon --->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--- Main Style Sheet ---->
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+
+<body>
+
+  <main>
+
+
+    <div class="container box">
+      <div class="row d-flex justify-content-center mt-2 mb-2">
+            <img class="profile" src="profile1.png" alt="">
+      </div>
+            <h3>First_name Last_name</h3>
+      <div class="row">
+          <div class="container box1">
+            <div class="row">
+              <div class="col s1">
+                <button class="two" type="button" name="button" onclick="myRegister()">ABOUT YOU</button>
+              </div>
+              <div class="col s1">
+                <button class="three" type="button" name="button" onclick="myLogin()">MANAGE COINS</button>
+              </div>
+            </div>
+          </div>
+          <div class="container box2 pt-3">
+
+            <div class="row line">
+              <div class="tab"><img class="icon" src="profil/profile_profile.svg" alt=""><p class="desc">Profile</p></div>
+              <div class="tab"><img class="icon" src="profil/profile_leaderboard.svg" alt=""><p class="desc">All India</p></div>
+              <div class="tab"><img class="icon" src="profil/profile_activty.svg" alt=""><p class="desc">Your Activity</p></div>
+              <div class="tab"><img class="icon" src="profil/profile_saved.svg" alt=""><p class="desc">Your Saved</p></div>
+              <div class="tab"><img class="icon" src="profil/profile_share.svg" alt=""><p class="desc">Invite friends</p></div>
+            </div>
+
+          </div>
+
+
+          <div class="container box3 pt-3">
+            <div class="row line">
+              <div class="tab"><img class="icon" src="profil/profile_purchase.svg" alt=""><p class="desc">Purchase Coins</p></div>
+              <div class="tab"><img class="icon" src="profil/profile_trans.svg" alt=""><p class="desc">My transactions</p></div>
+              <div class="tab"><img class="icon" src="profil/profile_analysis.svg" alt=""><p class="desc">Spent Analyser</p></div>
+              <div class="tab"><img class="icon" src="profil/profile_info.svg" alt=""><p class="desc">Learn more..</p></div>
+            </div>
+          </div>
+
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+    <!-- <section>
+
+
+    </section> -->
+
+
+  <!-- </main> -->
+
+  <script type="text/javascript">
+    function myRegister() {
+      document.querySelector(".box3").style.display = "none";
+      document.querySelector(".box2").style.display = "block";
+      var element = document.querySelector(".two");
+      var element1 = document.querySelector(".three");
+      element.classList.add("bg-blue");
+      element1.classList.add("bg-grey");
+
+    }
+
+    function myLogin() {
+      document.querySelector(".box3").style.display = "block";
+      document.querySelector(".box2").style.display = "none";
+      var element = document.querySelector(".two");
+      var element1 = document.querySelector(".three");
+      element.classList.remove("bg-blue");
+      element1.classList.remove("bg-grey");
+    }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous">
+  </script>
+  <script src="jquery.animated-bg.js"></script>
+  <script type="text/javascript" src="js/background.js">
+  </script>
+</body>
+
+</html>
